@@ -1,0 +1,22 @@
+body {
+  font-family: verdana;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > * {
+  margin: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.customDatePicker .MuiPickersDay-daySelected {
+  background-color: green;
+  color: white;
+}
